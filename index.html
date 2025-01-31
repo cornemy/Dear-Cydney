@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dear Cydney - Happy Birthday!!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Audio for background music (will play when the button is clicked) -->
+    <audio id="birthday-audio" loop>
+        <source src="call-me-on-my-cell-phone.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="container">
+        <!-- Birthday Card Section -->
+        <div id="birthday-card" class="slide active">
+            <h1>🎉 Happy Birthday, Cydney! 🎉</h1>
+            <img src="cat.gif" alt="Birthday Cat">
+            <button id="show-valentine">Click here 👍</button>
+        </div>
+
+        <!-- Birthday Wishes Section -->
+        <div id="birthday-wishes" class="slide hidden">
+            <p>Happy birthday, my favorite yapper! 🎉 Words can't describe how special you are. </p>
+            <p>I’d serenade you with a song, but I’m told birthdays are supposed to be enjoyable. Wishing you a birthday filled with love, laughter, and all the things that make you happiest. This may sound silly, but this is a gift for you. 💖 Enjoy your special day! 🎂</p>
+            <img src="happy-birthday-happy.gif" alt="Happy Birthday Gif">
+            <button id="next-valentine">Over here Bub</button>
+        </div>
+
+        <!-- Valentine Proposal Section -->
+        <div id="valentine-message" class="slide hidden">
+            <h2>❤️ Will you be my Valentine, Cydney? ❤️</h2>
+            <img src="mewing-cute.gif" alt="Mewing Cute Cat">
+            <button id="next-hmmm">Hmm?</button>
+        </div>
+
+        <!-- First "Hmm" Section -->
+        <div id="hmmm-section" class="slide hidden">
+            <h3>Will you???</h3>
+            <img id="gif1" src="uhh-cat.gif" alt="Uhh Cat" class="big-gif">
+            <button id="next-hmmm-2">Hmmmm?</button>
+        </div>
+
+        <!-- Second "Hmm" Section -->
+        <div id="hmmm-section-2" class="slide hidden">
+            <h3>Pretty please...</h3>
+            <img id="gif2" src="please-pretty-please.gif" alt="Please Pretty Please" class="big-gif">
+            <button id="next-hmmm-3">Hmmmmmmmm?</button>
+        </div>
+
+        <!-- Third "Hmm" Section -->
+        <div id="hmmm-section-3" class="slide hidden">
+            <h3>🥺🥺🥺</h3>
+            <img id="gif3" src="dont-make-me-beg.gif" alt="Don't Make Me Beg" class="big-gif">
+            <button id="next-valentine-message">Decide</button>
+        </div>
+
+        <!-- Final "Yes" or "No" Section -->
+        <div id="valentine-response" class="slide hidden">
+            <h3>Will you be my Valentine?</h3>
+            <button id="yes-btn">Yes!</button>
+            <button id="no-btn">No...</button>
+            <img src="gotta-make-the-best-possible-decisions-we-can-dwayne-johnson.gif" alt="Decision GIF">
+        </div>
+
+        <!-- Happy Section -->
+        <div id="happy-section" class="slide hidden">
+            <h1>Hepi Hepi Hepi!!!</h1>
+            <h3>Choices have been made. I LOF U 😍😍😍</h3>
+            <img src="yippee-cat-kitty.gif" alt="Yippee Cat Gif" class="big-gif">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

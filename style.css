@@ -1,0 +1,77 @@
+/* Basic Reset */
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    width: 90%;  /* Smaller container width */
+    max-width: 600px;  /* Maximum container width */
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.slide.active {
+    display: block;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 15px;
+    font-size: 22px;  /* Smaller font size */
+}
+
+button {
+    background-color: #ff77a9;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff0066;
+}
+
+img {
+    width: 50%;  /* Adjust size of the images */
+    max-width: 500px;  /* Maximum width */
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.big-gif {
+    width: 60%;  /* Bigger GIFs */
+    max-width: 550px;  /* Maximum width */
+    margin-top: 20px;
+    height: auto;
+}
+
+/* Specific Section Styles */
+#happy-section img {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+}
